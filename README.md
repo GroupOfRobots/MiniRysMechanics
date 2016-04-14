@@ -1,2 +1,2 @@
 # RobotMechanics
-This repo conains 3D elements desin and other
+This repo contains 3D elements desin and other
