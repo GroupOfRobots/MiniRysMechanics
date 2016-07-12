@@ -1,0 +1,28 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('iRysv2.STEP',
+    '2016-07-12T07:49:16',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2015',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = PRODUCT_CONTEXT ( 'NONE', #3, 'mechanical' ) ;
+#2 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #3 ) ;
+#3 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#4 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'ANY', '', #7, .NOT_KNOWN. ) ;
+#5 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #9 ) ;
+#6 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#7 = PRODUCT ( 'iRysv2', 'iRysv2', '', ( #1 ) ) ;
+#8 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #6 ) ;
+#9 = PRODUCT_DEFINITION ( 'UNKNOWN', '', #4, #11 ) ;
+#10 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #7 ) ) ;
+#11 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #6, 'design' ) ;
+ENDSEC;
+END-ISO-10303-21;
