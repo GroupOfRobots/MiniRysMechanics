@@ -1,1 +1,39 @@
 *.skb
+/solid_v5/camera/~$0603 Resistor.SLDPRT
+/solid_v5/camera/~$15 Pin Ribbon Block.SLDPRT
+/solid_v5/camera/~$15 Pin Ribbon Block Assem.SLDASM
+/solid_v5/camera/~$Camera Block.SLDPRT
+/solid_v5/camera/~$Camera Module Assem.SLDASM
+/solid_v5/camera/~$Camera end.SLDPRT
+/solid_v5/camera/~$Lenz.SLDPRT
+/solid_v5/camera/~$PCB 1.SLDPRT
+/solid_v5/camera/~$Ribbon Clamp.SLDPRT
+/solid_v5/camera/~$camera_mounted.SLDASM
+/solid_v5/camera/~$mount.SLDPRT
+/solid_v5/camera/~$mount3.SLDPRT
+/solid_v5/screws/~$H-H_M3x12mm.SLDPRT
+/solid_v5/screws/~$H-H_M3x6mm.SLDPRT
+/solid_v5/screws/~$H-M_M3x10x6mm.SLDPRT
+/solid_v5/screws/~$M2 x 0.4mm Thread 10mm LONG SOCKET HEAD CAP SCREW.SLDPRT
+/solid_v5/screws/~$M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.SLDPRT
+/solid_v5/screws/~$M3x4.SLDPRT
+/solid_v5/screws/~$M3x6.SLDPRT
+/solid_v5/screws/~$M3x8.SLDPRT
+/solid_v5/screws/~$m2_x_0_4mm_thread_6mm_long_sock.SLDPRT
+/solid_v5/screws/~$m2_x_0_4mm_thread_hex_nut.SLDPRT
+/solid_v5/~$ToF_nut.SLDASM
+/solid_v5/~$Wheel_new.SLDPRT
+/solid_v5/~$back.SLDPRT
+/solid_v5/~$battery_module.SLDPRT
+/solid_v5/~$battery_module_H.SLDASM
+/solid_v5/~$bottomframe_rys3.SLDPRT
+/solid_v5/~$bumper_front.SLDPRT
+/solid_v5/~$fan_simple_50x50.SLDPRT
+/solid_v5/~$front.SLDPRT
+/solid_v5/~$imu.SLDPRT
+/solid_v5/~$irys5.SLDASM
+/solid_v5/~$rys_PCB_rpi_simple.SLDPRT
+/solid_v5/~$steppermotor.SLDPRT
+/solid_v5/~$switch_simple.SLDPRT
+/solid_v5/~$topframe.SLDPRT
+/solid_v5/~$vl53l1x.SLDPRT
