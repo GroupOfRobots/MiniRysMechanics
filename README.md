@@ -1,5 +1,4 @@
 # RobotMechanics
-This repo contains 3D elements desin and other
+This repo contains MiniRys 3D elements desin and other
 
-TODO
-1. Wheel design
+supervisor: Kuba Ostrysz
