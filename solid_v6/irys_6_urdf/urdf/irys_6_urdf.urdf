@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="irys_6_urdf">
+  <link
+    name="Main_body">
+    <inertial>
+      <origin
+        xyz="-0.0874539195672514 -0.0122269199902348 -0.00784246828234295"
+        rpy="0 0 0" />
+      <mass
+        value="0.453793564265182" />
+      <inertia
+        ixx="0.000259863321416217"
+        ixy="2.31428598746657E-07"
+        ixz="4.09156459945878E-05"
+        iyy="0.000429890392435455"
+        iyz="8.05074980481899E-07"
+        izz="0.000377152036248999" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://irys_6_urdf/meshes/Main_body.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://irys_6_urdf/meshes/Main_body.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Wheel_right">
+    <inertial>
+      <origin
+        xyz="-0.011528943198384 2.80391338127427E-06 0.00369096576643183"
+        rpy="0 0 0" />
+      <mass
+        value="0.0537149612564686" />
+      <inertia
+        ixx="8.57127093914998E-05"
+        ixy="-9.69598740401909E-09"
+        ixz="-1.27788454440152E-05"
+        iyy="4.57874409692143E-05"
+        iyz="3.09718997540969E-09"
+        izz="4.98774458899122E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://irys_6_urdf/meshes/Wheel_right.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://irys_6_urdf/meshes/Wheel_right.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Wheel_right"
+    type="continuous">
+    <origin
+      xyz="-0.15013 0.013421 -0.011824"
+      rpy="1.5708 0 0" />
+    <parent
+      link="Main_body" />
+    <child
+      link="Wheel_right" />
+    <axis
+      xyz="0.95241 -0.00023119 -0.30483" />
+  </joint>
+  <link
+    name="Wheel_left">
+    <inertial>
+      <origin
+        xyz="-0.00958630182987512 2.31271003369934E-06 0.00306918750080176"
+        rpy="0 0 0" />
+      <mass
+        value="0.0537149466294839" />
+      <inertia
+        ixx="8.57127941638458E-05"
+        ixy="-9.69243811557028E-09"
+        ixz="-1.27787017005565E-05"
+        iyy="4.57874356286686E-05"
+        iyz="3.10972716040227E-09"
+        izz="4.98773321884887E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://irys_6_urdf/meshes/Wheel_left.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://irys_6_urdf/meshes/Wheel_left.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Wheel_left"
+    type="continuous">
+    <origin
+      xyz="-0.017849 0.055759 -0.011856"
+      rpy="1.5708 0 0" />
+    <parent
+      link="Main_body" />
+    <child
+      link="Wheel_left" />
+    <axis
+      xyz="0.95241 -0.00023119 -0.30483" />
+    <mimic
+      joint="Wheel_right"
+      multiplier="1"
+      offset="0" />
+  </joint>
+  <link
+    name="Grabber_right">
+    <inertial>
+      <origin
+        xyz="-0.021764640769758 -0.0117677988714972 0.0143878159478144"
+        rpy="0 0 0" />
+      <mass
+        value="0.0105279812266397" />
+      <inertia
+        ixx="3.27694469938928E-06"
+        ixy="-6.62143034378257E-07"
+        ixz="2.31385963602831E-06"
+        iyy="5.492706217497E-06"
+        iyz="4.26763734604977E-07"
+        izz="3.82909401272448E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://irys_6_urdf/meshes/Grabber_right.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://irys_6_urdf/meshes/Grabber_right.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Grabber_right"
+    type="revolute">
+    <origin
+      xyz="-0.072745 -0.077102 -0.029785"
+      rpy="1.5709 -0.00030448 -0.41312" />
+    <parent
+      link="Main_body" />
+    <child
+      link="Grabber_right" />
+    <axis
+      xyz="0 1 -0.00075842" />
+    <limit
+      lower="0"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Grabber_left">
+    <inertial>
+      <origin
+        xyz="0.025333969932915 -0.0153203978173541 -0.00205793541869451"
+        rpy="0 0 0" />
+      <mass
+        value="0.0108042920100823" />
+      <inertia
+        ixx="1.24612247933652E-06"
+        ixy="7.86310473338874E-07"
+        ixz="-2.82289098494667E-07"
+        iyy="5.50259383156628E-06"
+        iyz="-7.28301341303389E-08"
+        izz="5.87166945710156E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://irys_6_urdf/meshes/Grabber_left.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://irys_6_urdf/meshes/Grabber_left.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Grabber_left"
+    type="revolute">
+    <origin
+      xyz="-0.049412 -0.069631 -0.025865"
+      rpy="1.5708 0.00027235 0.3673" />
+    <parent
+      link="Main_body" />
+    <child
+      link="Grabber_left" />
+    <axis
+      xyz="0 1 -0.00075842" />
+    <limit
+      lower="-1.57"
+      upper="0"
+      effort="0"
+      velocity="0" />
+    <mimic
+      joint="Grabber_right"
+      multiplier="-1"
+      offset="0" />
+  </joint>
+</robot>
